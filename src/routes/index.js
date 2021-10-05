@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 // import PrivateRoute from './auth-route';
 import { AuthContext } from '../context/auth';
 import HomeScreen from '../pages/HomeScreen';
