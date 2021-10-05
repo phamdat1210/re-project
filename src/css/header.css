@@ -1,0 +1,28 @@
+.header-container {
+	background: linear-gradient(135deg,#ff5f6d, #FFC371);
+	padding: 24px 0px 24px 0px;
+	display: flex;
+}
+.header-container .nav-left .__navbar{
+	display: flex;
+	list-style-type : none;
+	align-items: center;
+}
+.header-container .nav-right .__navbar{
+	display: flex;
+	list-style-type : none;
+	align-items: center;
+}
+.header-container .__navbar li {
+	padding: 12px;
+}
+.header-container .__navbar li a {
+	color: black;
+	font-size: 24px;
+	font-weight: 600;
+}
+.nav-right {
+	display: flex;
+	position: absolute;
+	right: 36px;
+}
