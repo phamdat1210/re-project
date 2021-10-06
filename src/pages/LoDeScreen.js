@@ -1,10 +1,15 @@
 import React from 'react';
+import NumberButtonGroup from '../components/NumberButtonGroup';
 import MainLayout from '../layouts/MainLayout';
 
 const LoDeScreen = () => {
 	return (
 		<MainLayout>
-			<h1>Chơi lô đề</h1>
+			<div className = {'main-container'}>
+				<div className = {'game-table'}>
+					<NumberButtonGroup/>
+				</div>
+			</div>
 		</MainLayout>
 	);
 };

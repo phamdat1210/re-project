@@ -1,0 +1,9 @@
+.main-container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+.game-table {
+	display: flex;
+	padding: 20px 10px 20px 10px;
+}
